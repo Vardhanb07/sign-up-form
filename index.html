@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up-form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="head">
+        <div class="bg-image"></div>
+        <div class="form-elements">
+            <div class="intro-text">
+                <div id="textone">
+                    <p>
+                        This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams.
+                    </p>
+                    <p>
+                        Sign up now to get started.
+                    </p>
+                </div>
+                <div id="texttwo">
+                    <p id="em-text">
+                        You <em>know</em> you want to.
+                    </p>
+                </div>
+            </div>
+            <form action="#" method="post">
+                <div>
+                    <p>Let's do this!</p>
+                    <p>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </p>
+                    <p>
+                        <label for="second-name">SECOND NAME</label>
+                        <input type="text" name="second-name" id="second-name">
+                    </p>
+                    <p>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number" pattern="^(\+91|\+91\-|0)?[789]\d{9}$">
+                    </p>
+                    <p>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </p>
+                    <p>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>
+                    </p>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p >
+                Already have an account? <a href="#">Log in</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
