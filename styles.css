@@ -12,7 +12,6 @@
 }
 .form-elements{
     flex : 3 0 0;
-    padding-left : 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -25,17 +24,23 @@
     flex-direction: column;
     width : 75%;
     gap: 25px;
-    font-family: "Roboto";   
+    font-family: "Roboto";
+    padding-left: 30px;
 }
 form > div{
+    padding-left: 30px;
     display: flex;
     flex-direction: column;
     gap : 25px;
     box-shadow: -3px 3px 3px #e5e7eb;
+    padding-top : 15px;
+    padding-bottom: 30px;
+    border-radius: 5px;
 }
 .name, .info, .password {
     display: flex;
     flex-direction: row;
+    gap: 40px;
 }
 .name > p, .info > p, .password > p{
     display: flex;
@@ -47,4 +52,47 @@ form > div{
 }
 .form-text{
     font-size: small;
+    letter-spacing: 2px;
+    color: grey;
+}
+.login{
+    padding-left: 30px;
+}
+.login > a {
+    text-decoration: none;
+    color : #596d48;
+    font-weight: 900;
+}
+.button{
+    padding-left: 30px;
+}
+.button > button {
+    font-weight: 900;
+    padding : 10px 27px 10px 27px;
+    font-size: 16px;
+    border : 0;
+    background-color: #596d48;
+    color : white;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px #e5e7eb;
+    cursor: pointer;
+}
+button:hover{
+    color : #596d48;
+    background-color: #fff;
+}
+#first-name, #second-name, #email, #phone-number, #password, #confirm-password {
+    border-color: #e5e7eb;
+    border-style: groove;
+    border-width: 1px;
+    height: 30px;
+    border-radius: 4px;
+    padding-left : 12px;
+}
+#first-name:focus, #second-name:focus, #email:focus, #phone-number:focus, #password:focus, #confirm-password:focus{
+    outline: none;
+    border: 1px groove blue;
+}
+#email:invalid, #phone-number:invalid, #password:invalid, #confirm-password:invalid{
+    border: 1px groove red;
 }
