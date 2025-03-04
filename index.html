@@ -28,31 +28,37 @@
             </div>
             <form action="#" method="post">
                 <div>
-                    <p>Let's do this!</p>
-                    <p>
-                        <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name">
-                    </p>
-                    <p>
-                        <label for="second-name">SECOND NAME</label>
-                        <input type="text" name="second-name" id="second-name">
-                    </p>
-                    <p>
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
-                    </p>
-                    <p>
-                        <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" name="phone-number" id="phone-number" pattern="^(\+91|\+91\-|0)?[789]\d{9}$">
-                    </p>
-                    <p>
-                        <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password" required>
-                    </p>
-                    <p>
-                        <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm-password" id="confirm-password" required>
-                    </p>
+                    <p class="form-header-text">Let's do this!</p>
+                    <div class="name">
+                        <p>
+                            <label for="first-name" class="form-text">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name">
+                        </p>
+                        <p>
+                            <label for="second-name" class="form-text">SECOND NAME</label>
+                            <input type="text" name="second-name" id="second-name">
+                        </p>
+                    </div>
+                    <div class="info">
+                        <p>
+                            <label for="email" class="form-text">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="phone-number" class="form-text">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" pattern="^(\+91|\+91\-|0)?[789]\d{9}$">
+                        </p>
+                    </div>
+                    <div class="password">
+                        <p>
+                            <label for="password" class="form-text">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </p>
+                        <p>
+                            <label for="confirm-password" class="form-text">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </p>
+                    </div>
                 </div>
                 <button type="submit">Create Account</button>
             </form>
