@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-family: "Roboto";
 }
 .intro-text{
     font-weight: 900;
@@ -24,5 +25,5 @@
     flex-direction: column;
     width : 75%;
     gap: 25px;
+    font-family: "Roboto";   
 }
-
