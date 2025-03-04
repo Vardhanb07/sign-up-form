@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.bg-image{
+    flex: 2 0 0;
+}
+.form-elements{
+    flex : 3 0 0;
+    padding-left : 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.intro-text{
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width : 75%;
+    gap: 25px;
+}
+
