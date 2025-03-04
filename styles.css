@@ -27,3 +27,24 @@
     gap: 25px;
     font-family: "Roboto";   
 }
+form > div{
+    display: flex;
+    flex-direction: column;
+    gap : 25px;
+    box-shadow: -3px 3px 3px #e5e7eb;
+}
+.name, .info, .password {
+    display: flex;
+    flex-direction: row;
+}
+.name > p, .info > p, .password > p{
+    display: flex;
+    flex-direction: column;
+}
+.form-header-text{
+    font-weight: 900;
+    font-size: 20px;
+}
+.form-text{
+    font-size: small;
+}
