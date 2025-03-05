@@ -115,7 +115,7 @@ input:invalid{
     position: absolute;
     background-color: rgb(0, 0, 0);
     opacity: 0.4;
-    width: 461px;
+    width: 36%;
     height: 170px;
     top : 70px;
 }
@@ -123,13 +123,13 @@ input:invalid{
     position: absolute;
     align-self: center;
     top: 87px;
-    left : 80px;
+    left : 8%;
 }
 .odin-text{
     position: absolute;
     color: #fff;
     font-family: "Norse";
     font-size: 100px;
-    left : 180px;
+    left : 15%;
     top : 110px;
 }
